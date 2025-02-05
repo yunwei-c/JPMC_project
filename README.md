@@ -1,12 +1,11 @@
 The readme for JPMC project.
-------
 
+------
 The exploratory data analysis is performed in the Take_home_EDA.ipynb file.
 This code first loads the data from the CSV file. To gain a preliminary understanding, it prints the data types and ignores non-numerical values for later modeling.
 Some data preprocessing steps are performed, such as removing duplicate values and dropping null values.
 To understand the distribution of the data, a box plot is used.
 ------
-
 The neural network implementation can be found in the Take_home_Train_Test_NN.ipynb file.
 The code first performs the preprocessing steps introduced in the Take_home_EDA.ipynb file.
 It splits the dataset into a 4:1 ratio for training and validation, converts the values into Torch tensors, and uses a dataloader to handle the data efficiently.
